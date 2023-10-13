@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    margin: 20px 0;
+}
+
+input[type="file"] {
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* İlerleme çubuğu container */
+.progress-bar-container {
+    width: 100%;
+    height: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+/* İlerleme çubuğu */
+.progress-bar {
+    width: 0;
+    height: 100%;
+    background-color: #007bff;
+    transition: width 0.3s ease-in-out;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+img {
+    max-width: 100%;
+    margin: 20px 0;
+}
+
+.download-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.download-button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%;
+    }
+}
